@@ -1,0 +1,13 @@
+library(plotly)
+library(dplyr)
+library(tidyverse)
+library(leaflet)
+library(openxlsx)
+library(lubridate)
+library(ISOweek)
+library(DBI)
+library(sf)
+library(odbc)
+
+devtools::source_url("https://raw.githubusercontent.com/EU-ECDC/EcdcColors/master/R/EcdcColors.R")
+devtools::source_url("https://raw.githubusercontent.com/EU-ECDC/EcdcColors/master/R/SurvColors.R")
